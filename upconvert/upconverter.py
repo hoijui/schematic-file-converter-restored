@@ -289,8 +289,8 @@ def main(): #pylint: disable=R0912,R0915
     if sys.version_info[0] > 2 or sys.version_info[1] > 6:
         print 'WARNING: RUNNING UNSUPPORTED VERSION OF PYTHON (%s.%s > 2.6)' % (sys.version_info[0],
             sys.version_info[1])
-        if not args.unsupported:
-            sys.exit(-1)
+        #if not args.unsupported:
+        #    sys.exit(-1)
 
     inputtype = args.inputtype
     outputtype = args.outputtype
